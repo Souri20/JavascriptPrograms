@@ -11,8 +11,7 @@ function getIndex(arr){
         
         if(rightSum == leftSum){
             return arr[i]
-        }
-        
+        }        
         leftSum +=arr[i]
     }
     

@@ -23,7 +23,7 @@ function checkEqualArrays(arr1, arr2){
     }
     
     for(item in Object1){
-        if(!Object2.hasOwnProperty(item) && Object2[item] !== Object1[item]){
+        if(!Object2.hasOwnProperty(item) || Object2[item] !== Object1[item]){
             return false
         }
     }
